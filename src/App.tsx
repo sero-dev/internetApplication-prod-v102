@@ -1,8 +1,10 @@
+import { primaryButton } from './components/buttons/primaryButton/primaryButton'
+
 function App() {
 
   return (
     <div className="bg-slate-800 text-white">
-      Hello World
+      <primaryButton buttonText='Hello World'></primaryButton>
     </div>
   )
 }

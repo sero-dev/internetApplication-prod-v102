@@ -1,0 +1,4 @@
+.primaryButton {
+    color: white;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
