@@ -1,0 +1,5 @@
+.primaryButton {
+    border-radius: 8px 35px 20px 12px;
+    color: black;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
