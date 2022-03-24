@@ -2,7 +2,7 @@
   "name": "internetapplication-prod-v102",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://serodev.com/internetApplication-prod-v102/",
+  "homepage": "http://sero-dev.github.io/internetApplication-prod-v102",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
