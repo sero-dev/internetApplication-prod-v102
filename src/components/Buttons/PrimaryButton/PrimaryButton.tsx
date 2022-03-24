@@ -1,14 +1,12 @@
-import React, { FunctionComponent } from 'react'
-
 import './PrimaryButton.css'
 
-type buttonProps = {
-    buttonText: string;
+interface ButtonModel{
+    buttonText: string
 }
 
-export const PrimaryButton: FunctionComponent<buttonProps> = ({buttonText}) => {
+export const PrimaryButton = ({ buttonText }: ButtonModel) => {
     
     return(
-        <input type='button' className='primaryButton'>{buttonText}</input>
+        <button className='primaryButton'>{buttonText ? buttonText : 'This is a button'}</button>
     )
 }
